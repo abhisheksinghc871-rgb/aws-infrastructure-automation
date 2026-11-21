@@ -1,0 +1,31 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+crash.log
+*.tfvars
+!example.tfvars
+
+# SSH keys
+*.pem
+*.key
+id_rsa*
+
+# Environment / secrets
+.env
+.env.*
+*.secret
+
+# Ansible
+*.retry
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
