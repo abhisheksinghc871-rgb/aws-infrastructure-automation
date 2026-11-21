@@ -1,21 +1,15 @@
 # AWS Infrastructure Automation Platform
 
-## Project Overview
+## Overview
+Production-style AWS infrastructure provisioning using Terraform
+and configuration management using Ansible.
 
-This project demonstrates AWS infrastructure
-automation using Terraform and Ansible.
+## Tech Stack
+- **Cloud:** AWS (VPC, EC2, S3, IAM, Security Groups)
+- **IaC:** Terraform
+- **Config Management:** Ansible
+- **OS:** Ubuntu 24.04 (WSL2 + EC2)
+- **Version Control:** Git + GitHub
+- **CI:** GitHub Actions
 
-## Technologies
-
-- AWS
-- Terraform
-- Ansible
-- Linux
-- Git and GitHub
-
-## Project Status
-
-Currently in development.
-
-
-
+## Project Structure
